@@ -1,0 +1,9 @@
+Ask: Aunt(May, Shelly)
+Ask: Woman(May)
+True: Woman(May)
+Ask: Siblings(May, _)
+Ask: Parent(_, May)
+False: Parent(May, May)
+False: Siblings(May, _)
+False: Aunt(May, Shelly)
+False

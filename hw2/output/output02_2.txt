@@ -1,0 +1,5 @@
+Ask: Bully(Luke)
+Ask: BeatUp(Luke, _)
+False: BeatUp(Luke, _)
+False: Bully(Luke)
+False

@@ -1,0 +1,5 @@
+Ask: Aunt(Peter, Shelly)
+Ask: Woman(Peter)
+False: Woman(Peter)
+False: Aunt(Peter, Shelly)
+False

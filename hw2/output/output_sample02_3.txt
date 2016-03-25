@@ -1,0 +1,5 @@
+Ask: Bully(Yoda)
+Ask: BeatUp(Yoda, _)
+False: BeatUp(Yoda, _)
+False: Bully(Yoda)
+False

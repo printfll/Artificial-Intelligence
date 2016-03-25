@@ -1,0 +1,13 @@
+Ask: Aunt(Shelly, Shelly)
+Ask: Woman(Shelly)
+True: Woman(Shelly)
+Ask: Siblings(Shelly, _)
+Ask: Parent(_, Shelly)
+True: Parent(May, Shelly)
+Ask: Parent(May, _)
+True: Parent(May, Shelly)
+True: Siblings(Shelly, Shelly)
+Ask: Parent(Shelly, Shelly)
+False: Parent(Shelly, Shelly)
+False: Aunt(Shelly, Shelly)
+False

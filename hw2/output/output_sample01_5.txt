@@ -1,0 +1,3 @@
+Ask: Knows(Sidious, _)
+True: Knows(Sidious, Pine)
+True

@@ -1,0 +1,6 @@
+Bully(x)
+4
+Viterbi(x) && Viterbi(y) && Beatup(x, y) => Bully(x)
+Viterbi(Luke)
+Viterbi(Anakin)
+Beatup(Anakin, Luke)

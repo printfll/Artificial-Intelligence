@@ -1,0 +1,9 @@
+Ask: Uncle(Kevin, Shelly)
+Ask: Man(Kevin)
+True: Man(Kevin)
+Ask: Siblings(Kevin, _)
+Ask: Parent(_, Kevin)
+False: Parent(May, Kevin)
+False: Siblings(Kevin, _)
+False: Uncle(Kevin, Shelly)
+False

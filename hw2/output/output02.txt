@@ -1,0 +1,3 @@
+Ask: BeatUp(Anakin, _)
+True: BeatUp(Anakin, Luke)
+True

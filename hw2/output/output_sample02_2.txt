@@ -1,0 +1,8 @@
+Ask: ViterbiSquirrel(Yoda)
+Ask: EESquirrel(Yoda)
+False: EESquirrel(Yoda)
+Ask: ViterbiSquirrel(Yoda)
+Ask: CSSquirrel(Yoda)
+True: CSSquirrel(Yoda)
+True: ViterbiSquirrel(Yoda)
+True

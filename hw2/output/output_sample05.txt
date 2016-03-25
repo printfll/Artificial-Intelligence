@@ -1,0 +1,9 @@
+Ask4: Aunt(May, Shelly)
+Ask4: Woman(May)
+True5: Woman(May)
+Ask4: Siblings(May, _)
+Ask3: Parent(_, May)
+False5: Parent(_, May)
+False5: Siblings(May, _)
+False5: Aunt(May, Shelly)
+False

@@ -1,0 +1,5 @@
+Ask: Secret(_)
+Ask: Resource(_)
+True: Resource(Pine)
+True: Secret(Pine)
+True

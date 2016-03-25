@@ -1,0 +1,5 @@
+Ask: Traitor(Sidious)
+Ask: ViterbiSquirrel(Sidious)
+False: ViterbiSquirrel(Sidious)
+False: Traitor(Sidious)
+False

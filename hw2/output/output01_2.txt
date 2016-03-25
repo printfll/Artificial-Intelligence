@@ -1,0 +1,7 @@
+Ask: Tells(Anakin, _, Sidious)
+Ask: Resource(_)
+True: Resource(Pine)
+Ask: Knows(Sidious, Pine)
+True: Knows(Sidious, Pine)
+True: Tells(Anakin, Pine, Sidious)
+True

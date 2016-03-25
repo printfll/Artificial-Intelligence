@@ -1,0 +1,5 @@
+Ask: Hostile(_)
+Ask: Enemy(_, USC)
+True: Enemy(Sidious, USC)
+True: Hostile(Sidious)
+True
