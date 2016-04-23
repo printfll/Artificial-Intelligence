@@ -222,13 +222,13 @@ def MAX_VALUE(state,d,posx,posy): #implementation of MAX
 	for i in range(5):
 		for j in range(5):
 			if state[i][j]=="*" : #vacant state
-				printMM(posx,posy,d,v)
 				newState=copy.deepcopy(state)
+				printMM(posx,posy,d,v)
 				poss=move(newState,i,j)
 				val=MIN_VALUE(newState,d+1,i,j)
 				v=max(v,val)
-				printMM(posx,posy,d,v)
 				
+	printMM(posx,posy,d,v)
 	return v
 
 def MIN_VALUE(state,d,posx,posy): #implementation of MIN
@@ -293,27 +293,27 @@ def MAX_VALUE_ALPHA(state,d,alpha,beta,posx,posy): #Implementation of MAX_ALPHAB
 	for i in range(5):
 		for j in range(5):
 			if state[i][j]=="*" : #vacant state
-				printAB(posx,posy,d,v,alpha,beta)
+				# printAB(posx,posy,d,v,alpha,beta)
 
 				newState=copy.deepcopy(state)
+				printAB(posx,posy,d,v,alpha,beta)
 				poss=move(newState,i,j)
 				
 				val=MIN_VALUE_BETA(newState,d+1,alpha,beta,i,j)
 				v=max(v,val)
-				printAB(posx,posy,d,v,alpha,beta)
+				
 				if v>=beta:
+					printAB(posx,posy,d,v,alpha,beta)
 					return v
 				alpha=max(alpha,v)
+	printAB(posx,posy,d,v,alpha,beta)
 	return v
 
 def MIN_VALUE_BETA(state,d,alpha,beta,posx,posy): #Implementation of MIN_ALPHABETA
 	global column	
 	if cutoffTest(state,d):
 		score=getScore(state)
-		print "MIN_VALUE_ALPHA cutoff"
 		printAB(posx,posy,d,score,alpha,beta)
-		
-		# print "min cut off: ",state
 		return score;
 	v=sys.maxint
 	for i in range(5):
@@ -461,7 +461,7 @@ if count==13:
 	makeAction(action)
 
 	
-	print state
+	
 	WriteFile(output_file,state,1)
 	output_file.close
 	traverse_file.close
